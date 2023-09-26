@@ -1,0 +1,56 @@
+
+
+
+
+#first{
+    color:var(--text-color);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#first:hover{
+    color:blueviolet;
+}
+
+.second{
+    color:var(--text-color);
+    font-size: 30px;
+}
+
+
+ul{
+    font-size: 25px;
+    color:var(--border-color);
+    /* list-style-type: disc; */
+    text-align: center;
+    list-style-position: inside;
+    list-style-image:url(
+        https://interactive-examples.mdn.mozilla.net/media/examples/rocket.svg
+        ) ;
+}
+
+
+
+a{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:visited{
+    color:brown;
+  
+}
+
+a:focus{
+    color:#0adadd;
+}
+
+a:hover{
+    color:aqua;
+    text-decoration: line-through;
+}
+
+a:active{
+    color:chartreuse;
+}
+

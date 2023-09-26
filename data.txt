@@ -1,0 +1,5 @@
+https://www.w3schools.com/css/sqpurple.gif
+
+https://interactive-examples.mdn.mozilla.net/media/examples/rocket.svg
+
+https://live.mdnplay.dev/en-US/docs/Web/CSS/list-style-image/starsolid.gif

@@ -1,0 +1,43 @@
+:root {
+  --text-color: orange;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+  /* text-decoration: overline; */
+  text-transform: capitalize;
+  /* text-shadow: -1px 1px 5px rgb(4, 143, 213); */
+  letter-spacing: 20px;
+  word-spacing: 30px;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+p {
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+a{
+  background-color: black;
+  color: white;
+}
+a:link{
+  color:yellow;
+}
+
+a:hover{
+  background-color: #fff;
+  color:aqua
+}
+a:focus{
+  color:chocolate;
+}
+
+ul{
+  list-style-image: url( https://www.w3schools.com/css/sqpurple.gif);
+}

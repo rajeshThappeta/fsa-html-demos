@@ -1,0 +1,14 @@
+.first{
+    text-align: end;
+    color: blue;
+}
+
+.second{
+    color:brown;
+    text-align: start;
+}
+
+span{
+    font-size: 30px;
+    color:crimson;
+}
