@@ -1,0 +1,35 @@
+h1{
+    font-size: 5rem;
+    text-align: center;
+    color: orange;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 20px rgb(31, 28, 26);
+    border-radius: 50%;
+    border: 4px dotted black;
+    padding: 10px;
+}
+
+.img1{
+    float: left;
+}
+
+.img2{
+    float: right;
+}
+
+.img3{
+    display: block;
+    margin: auto;
+}
+
+.container{
+    margin: 0px  50px;
+}
+
+.para{
+    font-size: 1.2rem;
+}
