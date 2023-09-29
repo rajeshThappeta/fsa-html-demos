@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Forms Demo</h1>
     <!-- form -->
     <form>
-        <input type="radio">
+      <!-- username -->
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          autocomplete="off"
+          placeholder="E.g. Kiran"
+          required
+          minlength="4"
+          maxlength="6"
+        />
+      </div>
+
+      <!-- password -->
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="passwortd"
+          autocomplete="off"
+          required
+        />
+      </div>
+
+      <!-- email -->
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          autocomplete="off"
+          required
+        />
+      </div>
+      <!-- email -->
+      <div>
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob" id="dob" required />
+      </div>
+
+      <!-- skills -->
+      <div>
+        <label>Select your skills</label>
+        <!-- html -->
+        <div>
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+        </div>
+         <!-- css -->
+         <div>
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+        </div>
+      </div>
+
+        <!-- gender -->
+        <div>
+            <label>Select your gender</label>
+            <!-- html -->
+            <div>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+            </div>
+             <!-- css -->
+             <div>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+          </div>
+
+      <!-- login btn -->
+      <button type="submit">Login</button>
     </form>
-</body>
+  </body>
 </html>
