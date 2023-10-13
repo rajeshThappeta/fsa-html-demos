@@ -1,0 +1,23 @@
+.main h1 {
+  color: red;
+}
+.main p {
+  color: blue;
+}
+
+.parent h2 {
+  color: olive;
+  text-align: center;
+}
+.parent .child-1 h3 {
+  color: orange;
+}
+.parent .child-2 h3 {
+  color: crimson;
+}
+
+h1 {
+  color: rgb(15, 90, 165);
+  font-size: 4rem;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

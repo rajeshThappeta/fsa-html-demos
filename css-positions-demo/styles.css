@@ -1,0 +1,41 @@
+
+body{
+    min-height: 1000px;
+}
+
+.parent{
+    max-width: 700px;
+    height: 700px;
+    border:3px solid black;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+}
+
+.child-1{
+    background-color: #111;
+    position: absolute;
+    left:350px;
+    margin-left: -50px;
+    top:-50px;
+    
+   
+   
+}
+.child-2{
+    background-color: #e20e0e;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.child-3{
+    background-color: #0c86a5;
+    position: sticky;
+    top:50px;
+}

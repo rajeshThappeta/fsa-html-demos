@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+/* create grid container for paremt */
+.parent{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    /* align-items:center ; */
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px 20px;
+}
+
+.child {
+
+}
+
+.child-1 {
+    background-color: aquamarine;
+    /* grid-column-start:1 ;
+    grid-column-end: 3; */
+    grid-column: 1/3;
+}
+
+.child-2 {
+    background-color: burlywood;
+    
+}
+
+.child-3 {
+    background-color: crimson;
+    grid-row: 2/4;
+    
+}
+
+.child-4 {
+    background-color: cadetblue;
+}
+
+.child-5 {
+    background-color: chocolate;
+}
+
+
+.child-6 {
+    background-color: blueviolet;
+}
+
+.child-7{
+    background-color: chartreuse;
+    grid-column: 2/4;
+}
+
+
+.child-8{
+    background-color: bisque;
+}
+
+.child-9{
+    background-color: darkolivegreen;
+}

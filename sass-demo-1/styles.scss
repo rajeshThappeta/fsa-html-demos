@@ -1,0 +1,15 @@
+@use 'main';
+@use 'parent';
+
+$text-color:rgb(15, 90, 165);
+
+
+
+h1{
+    color:$text-color;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+
