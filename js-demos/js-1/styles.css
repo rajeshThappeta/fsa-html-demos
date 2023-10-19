@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(38, 36, 36);
+}
+
+h1{
+    color:goldenrod;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
