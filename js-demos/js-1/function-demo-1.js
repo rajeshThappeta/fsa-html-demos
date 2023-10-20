@@ -56,10 +56,46 @@ let x=123;
 
 
 let sumOfNumbers=function (firstNumber, secondNumber) {
-    let sum = firstNumber + secondNumber;
-    return sum;
+    return firstNumber + secondNumber;
   }
 
 
 let s=sumOfNumbers(20,30)
 console.log(s)
+
+
+
+//Arrow functions
+let sumOfNums= (firstNumber, secondNumber)=>  firstNumber + secondNumber;
+
+let s1=sumOfNums(120,130)
+console.log(s1)
+ 
+
+
+
+let compareValuesAgain=(a,b)=>{
+  if(a>b){
+      
+      return "a is big"
+  }else if(a===b){
+      return "both are equal"
+  }else{
+      return 'b is big'
+  }
+}
+
+
+function compareValues(a,b){
+  if(a>b){
+      
+      return "a is big"
+  }else if(a===b){
+      return "both are equal"
+  }else{
+      return 'b is big'
+  }
+}
+
+
+
