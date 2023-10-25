@@ -1,5 +1,7 @@
 let numberArray=[10,20,30];
 
+//numberArray.splice(3,2,123,345)
+
 
 //access elements
    // console.log(numberArray[0])
