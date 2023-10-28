@@ -1,10 +1,39 @@
-let numberArray = [10, 90, 30, 50, 45, 200];
+let numberArray = [10, 200, -30, 50];
 let emps = [
   { eno: 10, name: "bhanu", city: "hyd", age: 20 },
   { eno: 20, name: "ravi", city: "chennai", age: 32 },
   { eno: 30, name: "kiran", city: "bangalore", age: 40 },
   { eno: 40, name: "vasu", city: "hyd", age: 22 }
 ];
+
+
+
+
+    //reduce
+        //sum of elements of array
+       let sumOfElements= numberArray.reduce((accumulator,element)=>accumulator+element)
+                             //   180          50          180
+        console.log(sumOfElements)
+        //small element
+        let small=numberArray.reduce((acc,element)=>acc<element?acc:element)
+        console.log(small)
+          //big element
+          let big=numberArray.reduce((acc,element)=>acc>element?acc:element)
+          console.log(big)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //find all elements betweeb 20 and 90
 // let result=[];
@@ -59,3 +88,6 @@ let emps = [
     //find index of 300
     let indx=numberArray.findIndex(element=>element===30)
     console.log(indx)
+
+
+        
