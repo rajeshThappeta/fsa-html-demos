@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color:dodgerblue;
+    font-size: 4rem;
+}
+
+
+.para1{
+    color:blueviolet;
+    font-size: 2rem;
+}
+
+#para2{
+    color:chocolate;
+    font-size: 3rem;
+}
+
+.para3{
+    color:rgb(210, 30, 72);
+    font-size: 5rem;
+}
