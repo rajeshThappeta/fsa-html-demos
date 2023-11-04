@@ -1,7 +1,15 @@
 div{
   text-align: center;
-  background-color: cadetblue;
+ 
   padding: 40px;
-  color: white;
-  font-size: 2rem;
+ 
+  /* font-size: 2rem; */
+}
+
+
+table{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: chocolate;
 }
