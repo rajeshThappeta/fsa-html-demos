@@ -13,3 +13,6 @@ table{
   text-align: center;
   background-color: chocolate;
 }
+.chl{
+  display: flex;
+}
